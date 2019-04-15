@@ -9,10 +9,6 @@ import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.os.Handler;
-import android.support.v4.content.res.ResourcesCompat;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.text.Editable;
 import android.text.Html;
 import android.text.TextUtils;
@@ -42,6 +38,11 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
 import androidx.annotation.UiThread;
+import androidx.core.content.res.ResourcesCompat;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 import com.afollestad.materialdialogs.internal.MDButton;
 import com.afollestad.materialdialogs.internal.MDRootLayout;
 import com.afollestad.materialdialogs.internal.MDTintHelper;
@@ -2011,7 +2012,7 @@ public class MaterialDialog extends DialogBase
     }
 
     /**
-     * Sets a custom {@link android.support.v7.widget.RecyclerView.Adapter} for the dialog's list
+     * Sets a custom {@link androidx.recyclerview.widget.RecyclerView.Adapter} for the dialog's list
      *
      * @param adapter The adapter to set to the list.
      * @param layoutManager The layout manager to use in the RecyclerView. Pass null to use the
