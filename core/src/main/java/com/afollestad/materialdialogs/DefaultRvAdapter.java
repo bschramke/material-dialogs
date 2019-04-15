@@ -4,7 +4,6 @@ import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
 import android.content.res.Configuration;
 import android.os.Build;
-import android.support.annotation.LayoutRes;
 import android.support.v7.widget.RecyclerView;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -15,6 +14,7 @@ import android.widget.CompoundButton;
 import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.TextView;
+import androidx.annotation.LayoutRes;
 import com.afollestad.materialdialogs.internal.MDTintHelper;
 import com.afollestad.materialdialogs.util.DialogUtils;
 

@@ -3,16 +3,16 @@ package com.afollestad.materialdialogs.simplelist;
 import android.content.Context;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
-import android.support.annotation.AttrRes;
-import android.support.annotation.ColorInt;
-import android.support.annotation.ColorRes;
-import android.support.annotation.DimenRes;
-import android.support.annotation.DrawableRes;
-import android.support.annotation.IntRange;
-import android.support.annotation.Nullable;
-import android.support.annotation.StringRes;
 import android.support.v4.content.ContextCompat;
 import android.util.TypedValue;
+import androidx.annotation.AttrRes;
+import androidx.annotation.ColorInt;
+import androidx.annotation.ColorRes;
+import androidx.annotation.DimenRes;
+import androidx.annotation.DrawableRes;
+import androidx.annotation.IntRange;
+import androidx.annotation.Nullable;
+import androidx.annotation.StringRes;
 import com.afollestad.materialdialogs.util.DialogUtils;
 
 /** @author Aidan Follestad (afollestad) */
