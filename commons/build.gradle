@@ -7,6 +7,8 @@ ext {
     PUBLISH_VERSION = versions.publishVersion
 }
 
+apply from: '../bintrayconfig.gradle'
+
 android {
     compileSdkVersion versions.compileSdk
     buildToolsVersion versions.buildTools
