@@ -28,7 +28,6 @@ import androidx.fragment.app.DialogFragment;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentManager;
-
 import com.afollestad.materialdialogs.DialogAction;
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.afollestad.materialdialogs.Theme;
@@ -72,7 +71,7 @@ public class ColorChooserDialog extends DialogFragment
 
   @Nullable
   public static ColorChooserDialog findVisible(
-          @NonNull FragmentManager fragmentManager, @ColorChooserTag String tag) {
+      @NonNull FragmentManager fragmentManager, @ColorChooserTag String tag) {
     Fragment frag = fragmentManager.findFragmentByTag(tag);
     if (frag != null && frag instanceof ColorChooserDialog) {
       return (ColorChooserDialog) frag;

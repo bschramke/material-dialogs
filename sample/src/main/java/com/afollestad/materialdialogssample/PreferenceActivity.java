@@ -4,7 +4,6 @@ import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.preference.PreferenceFragment;
 import android.view.MenuItem;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 @SuppressLint("NewApi")

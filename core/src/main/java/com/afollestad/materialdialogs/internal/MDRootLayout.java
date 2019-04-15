@@ -17,7 +17,6 @@ import android.widget.AdapterView;
 import android.widget.ScrollView;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.afollestad.materialdialogs.GravityEnum;
 import com.afollestad.materialdialogs.R;
 import com.afollestad.materialdialogs.StackingBehavior;

@@ -15,7 +15,6 @@ import android.widget.RadioButton;
 import android.widget.TextView;
 import androidx.annotation.LayoutRes;
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.afollestad.materialdialogs.internal.MDTintHelper;
 import com.afollestad.materialdialogs.util.DialogUtils;
 

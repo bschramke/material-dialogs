@@ -18,7 +18,6 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.widget.AppCompatEditText;
 import androidx.core.content.ContextCompat;
 import androidx.core.graphics.drawable.DrawableCompat;
-
 import com.afollestad.materialdialogs.R;
 import com.afollestad.materialdialogs.util.DialogUtils;
 import java.lang.reflect.Field;

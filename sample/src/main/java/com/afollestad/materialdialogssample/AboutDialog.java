@@ -2,10 +2,9 @@ package com.afollestad.materialdialogssample;
 
 import android.app.Dialog;
 import android.os.Bundle;
-
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.DialogFragment;
-import androidx.annotation.NonNull;
 import com.afollestad.materialdialogs.MaterialDialog;
 
 /** @author Aidan Follestad (afollestad) */

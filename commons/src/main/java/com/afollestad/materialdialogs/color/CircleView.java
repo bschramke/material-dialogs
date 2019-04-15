@@ -23,7 +23,6 @@ import androidx.annotation.ColorRes;
 import androidx.annotation.FloatRange;
 import androidx.core.view.GravityCompat;
 import androidx.core.view.ViewCompat;
-
 import com.afollestad.materialdialogs.util.DialogUtils;
 
 public class CircleView extends FrameLayout {
